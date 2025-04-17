@@ -1,0 +1,60 @@
+[00:51:37] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.125, --assetIndex, asset-index, --assetsDir, C:\Users\l5557\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.125, --fml.neoFormVersion, 20241203.161809]
+[00:51:37] [main/INFO]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245
+[00:51:37] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[00:51:37] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[00:51:37] [main/INFO]: Trying GL version 4.6
+[00:51:38] [main/INFO]: Requested GL version 4.6 got version 4.6
+[00:51:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/l5557/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[00:51:38] [main/INFO]: Found mod file "neoforge-21.4.125.jar" [locator: neoforge devenv provider ([C:\Users\l5557\OneDrive\ƒокументы\GitHub\empty neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.125\neoforge-21.4.125.jar])]
+[00:51:38] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 572.83, NVIDIA Corporation
+[00:51:39] [main/INFO]: Found mod file "neoforge-21.4.125.jar" [locator: neoforge devenv provider ([C:\Users\l5557\OneDrive\ƒокументы\GitHub\empty neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.125\neoforge-21.4.125.jar])]
+[00:51:39] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[00:51:39] [main/INFO]: Found mod file "neoforge-21.4.125.jar" [locator: userdev mods and services, reader: mod manifest]
+[00:51:39] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[00:51:39] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\l5557\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[00:51:39] [main/INFO]: Found 1 dependencies adding them to mods collection
+[00:51:39] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.4.125.jar" [parent: neoforge-21.4.125.jar, locator: jarinjar, reader: mod manifest]
+[00:51:39] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		examplemod 1.0-SNAPSHOT (examplemod)
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.125 (neoforge)
+[00:51:41] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.125, --gameDir, ., --assetsDir, C:\Users\l5557\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[18апр.2025 00:51:46.081] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 854 milliseconds
+[18апр.2025 00:51:46.254] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[18апр.2025 00:51:46.355] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18апр.2025 00:51:55.383] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18апр.2025 00:51:55.386] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18апр.2025 00:51:55.392] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18апр.2025 00:51:55.394] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18апр.2025 00:51:55.397] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18апр.2025 00:51:55.585] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/l5557/OneDrive/ƒокументы/GitHub/empty%20neo/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.125/neoforge-21.4.125.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[18апр.2025 00:51:55.586] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/l5557/OneDrive/ƒокументы/GitHub/empty%20neo/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.125/neoforge-21.4.125.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[18апр.2025 00:51:55.649] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18апр.2025 00:51:55.667] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[18апр.2025 00:51:55.831] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[18апр.2025 00:51:56.165] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.125, for MC 1.21.4
+[18апр.2025 00:51:57.747] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[18апр.2025 00:51:58.016] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/examplemod
+[18апр.2025 00:51:58.207] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[18апр.2025 00:51:58.208] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[18апр.2025 00:52:01.251] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on ƒинамики (Realtek(R) Audio)
+[18апр.2025 00:52:01.253] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[18апр.2025 00:52:01.378] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[18апр.2025 00:52:01.391] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[18апр.2025 00:52:01.391] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18апр.2025 00:52:01.391] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18апр.2025 00:52:01.393] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18апр.2025 00:52:01.397] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18апр.2025 00:52:01.398] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18апр.2025 00:52:01.398] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18апр.2025 00:52:01.398] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18апр.2025 00:52:01.403] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[18апр.2025 00:52:01.637] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18апр.2025 00:52:01.638] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18апр.2025 00:52:01.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18апр.2025 00:52:01.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[18апр.2025 00:52:01.648] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[18апр.2025 00:52:37.691] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
